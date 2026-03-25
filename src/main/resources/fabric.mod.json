@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "lodestone-chunk-loaders",
+	"version": "${version}",
+	"name": "Lodestone Chunk Loaders",
+	"description": "Turn any Lodestone into a persistent chunk loader! Right-click a Lodestone with a Recovery Compass to charge it with 12 hours of offline chunk-loading time. Chunks stay loaded while the owner is offline, time drains in real-time, and linked Compasses display live countdown lore. Server-side only — no client mod required.",
+	"authors": [
+		"TinoMartino"
+	],
+	"contact": {
+		"homepage": "https://github.com/TinoMartino",
+		"sources": "https://github.com/TinoMartino/lodestone-chunk-loaders"
+	},
+	"license": "MIT",
+	"icon": "assets/lodestone-chunk-loaders/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.tino.chunkloader.LodestoneChunkLoaders"
+		]
+	},
+	"mixins": [
+		"lodestone-chunk-loaders.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"fabric-api:client-optional": true
+	}
+}

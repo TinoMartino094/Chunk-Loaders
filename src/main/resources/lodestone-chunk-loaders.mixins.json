@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.tino.chunkloader.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"CompassItemMixin",
+		"LodestoneBreakMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

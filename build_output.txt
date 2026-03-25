@@ -1,0 +1,354 @@
+﻿
+> Configure project :
+Fabric Loom: 1.15.4
+
+> Task :compileJava FAILED
+.\gradlew.bat : C:\User
+s\Mart├¡n\.gemini\antig
+ravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:90: error: 
+cannot find symbol
+En línea: 1 Carácter: 1
++ .\gradlew.bat 
+classes 2>&1 | 
+Out-File -Encoding 
+utf8 C:\Users\Martín\ 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (C:\Users\Mart   
+ ├¡...not find symb    
+ol:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+        String 
+dimension = level.dimen
+sion().location().toStr
+ing();
+                       
+                     ^
+  symbol:   method 
+location()
+  location: class 
+ResourceKey<Level>
+C:\Users\Mart├¡n\.gemin
+i\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:105: error: 
+constructor ChunkPos 
+in record ChunkPos 
+cannot be applied to 
+given types;
+        ChunkPos 
+chunkPos = new 
+ChunkPos(pos);
+                       
+     ^
+  required: int,int
+  found:    BlockPos
+  reason: actual and 
+formal argument lists 
+differ in length
+C:\Users\Mart├¡n\.gemin
+i\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:118: error: 
+cannot find symbol
+        String 
+dimension = level.dimen
+sion().location().toStr
+ing();
+                       
+                     ^
+  symbol:   method 
+location()
+  location: class 
+ResourceKey<Level>
+C:\Users\Mart├¡n\.gemin
+i\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:128: error: 
+cannot find symbol
+        String 
+dimension = level.dimen
+sion().location().toStr
+ing();
+                       
+                     ^
+  symbol:   method 
+location()
+  location: class 
+ResourceKey<Level>
+C:\Users\Mart├¡n\.gemin
+i\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:132: error: 
+constructor ChunkPos 
+in record ChunkPos 
+cannot be applied to 
+given types;
+            ChunkPos 
+chunkPos = new 
+ChunkPos(pos);
+                       
+         ^
+  required: int,int
+  found:    BlockPos
+  reason: actual and 
+formal argument lists 
+differ in length
+C:\Users\Mart├¡n\.gemin
+i\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:186: error: 
+constructor ChunkPos 
+in record ChunkPos 
+cannot be applied to 
+given types;
+                    
+ChunkPos chunkPos = 
+new 
+ChunkPos(entry.pos);
+                       
+                 ^
+  required: int,int
+  found:    BlockPos
+  reason: actual and 
+formal argument lists 
+differ in length
+C:\Users\Mart├¡n\.gemin
+i\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:221: error: 
+constructor ChunkPos 
+in record ChunkPos 
+cannot be applied to 
+given types;
+                    
+ChunkPos chunkPos = 
+new 
+ChunkPos(entry.pos);
+                       
+                 ^
+  required: int,int
+  found:    BlockPos
+  reason: actual and 
+formal argument lists 
+differ in length
+C:\Users\Mart├¡n\.gemin
+i\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:233: error: 
+cannot find symbol
+            if (level.d
+imension().location().t
+oString().equals(dimens
+ion)) {
+                       
+          ^
+  symbol:   method 
+location()
+  location: class 
+ResourceKey<Level>
+8 errors
+
+[Incubating] Problems report is available at: file:///C:/Users/Mart%C3%ADn/.gemini/antigravity/Fabric%20mods/Chunk%20Loaders/build/reports/problems/problems-report.html
+
+FAILURE: Build failed 
+with an exception.
+
+* What went wrong:
+Execution failed for 
+task ':compileJava'.
+> Compilation failed; 
+see the compiler 
+output below.
+  C:\Users\Mart├¡n\.gem
+ini\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:105: error: 
+constructor ChunkPos 
+in record ChunkPos 
+cannot be applied to 
+given types;
+          ChunkPos 
+chunkPos = new 
+ChunkPos(pos);
+                       
+       ^
+    required: int,int
+    found:    BlockPos
+    reason: actual and 
+formal argument lists 
+differ in length
+  C:\Users\Mart├¡n\.gem
+ini\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:132: error: 
+constructor ChunkPos 
+in record ChunkPos 
+cannot be applied to 
+given types;
+              ChunkPos 
+chunkPos = new 
+ChunkPos(pos);
+                       
+           ^
+    required: int,int
+    found:    BlockPos
+    reason: actual and 
+formal argument lists 
+differ in length
+  C:\Users\Mart├¡n\.gem
+ini\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:186: error: 
+constructor ChunkPos 
+in record ChunkPos 
+cannot be applied to 
+given types;
+                      
+ChunkPos chunkPos = 
+new 
+ChunkPos(entry.pos);
+                       
+                   ^
+    required: int,int
+    found:    BlockPos
+    reason: actual and 
+formal argument lists 
+differ in length
+  C:\Users\Mart├¡n\.gem
+ini\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:221: error: 
+constructor ChunkPos 
+in record ChunkPos 
+cannot be applied to 
+given types;
+                      
+ChunkPos chunkPos = 
+new 
+ChunkPos(entry.pos);
+                       
+                   ^
+    required: int,int
+    found:    BlockPos
+    reason: actual and 
+formal argument lists 
+differ in length
+  C:\Users\Mart├¡n\.gem
+ini\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:90: error: 
+cannot find symbol
+          String 
+dimension = level.dimen
+sion().location().toStr
+ing();
+                       
+                       
+^
+    symbol:   method 
+location()
+    location: class 
+ResourceKey<Level>
+  C:\Users\Mart├¡n\.gem
+ini\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:118: error: 
+cannot find symbol
+          String 
+dimension = level.dimen
+sion().location().toStr
+ing();
+                       
+                       
+^
+    symbol:   method 
+location()
+    location: class 
+ResourceKey<Level>
+  C:\Users\Mart├¡n\.gem
+ini\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:128: error: 
+cannot find symbol
+          String 
+dimension = level.dimen
+sion().location().toStr
+ing();
+                       
+                       
+^
+    symbol:   method 
+location()
+    location: class 
+ResourceKey<Level>
+  C:\Users\Mart├¡n\.gem
+ini\antigravity\Fabric 
+mods\Chunk Loaders\src\
+main\java\com\tino\chun
+kloader\ChunkAnchorMana
+ger.java:233: error: 
+cannot find symbol
+              if (level
+.dimension().location()
+.toString().equals(dime
+nsion)) {
+                       
+            ^
+    symbol:   method 
+location()
+    location: class 
+ResourceKey<Level>
+  8 errors
+
+* Try:
+> Check your code and 
+dependencies to fix 
+the compilation 
+error(s)
+> Run with --scan to 
+get full insights from 
+a Build Scan (powered 
+by Develocity).
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed
